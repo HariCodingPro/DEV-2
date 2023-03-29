@@ -1,0 +1,6 @@
+function connexion(){ 
+    var id=document.getElementById("blogin").value;
+    var mdp=document.getElementById("bmdp").value;
+
+    
+ }

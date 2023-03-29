@@ -1,0 +1,122 @@
+/* Définition des styles pour le corps de la page */
+
+.contenu-annonce{
+  width: 100%;
+  height:auto;
+  display : flex;
+  flex-direction: column;
+  /*border: 1px solid;*/
+}
+/*section hautes*/
+.section-haute{
+  width: 100%;
+  height: 65%;
+  display : flex;
+  flex-direction : row;
+}
+
+/*sous sections hautes gauche et droite*/
+.section-photos{
+  width:70%;
+  border : 3px solid;
+  border-radius: 20px;
+  /*background-color: bisque;*/
+  overflow: hidden;
+  margin : 3px;
+  text-align: center;
+}
+
+.section-haute-droite{
+  width:30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid;*/
+}
+
+/* sous section de la sous section haute droite*/
+.section-description{
+  width:95%;
+  height: 70%;
+  border : 3px solid;
+  border-radius: 20px;
+  background-color: bisque;
+  padding: 3px;
+}
+.section-information{
+  width:95%;
+  border : 3px solid;
+  border-radius: 20px;
+  background-color: bisque;
+  margin-top: 5px;
+  padding: 3px;
+}
+
+/*section basse*/
+.section-basse{
+  width: 100%;
+  height: 35%;
+  display : flex;
+  flex-direction : row;
+  /*border: 1px solid;*/
+}
+/* section basse gauche et droite*/
+.section-note-animal {
+  border : 3px solid;
+  border-radius: 20px;
+  background-color: bisque;
+  width: 70%;
+  margin : 3px;
+  padding: 3px;
+}
+
+.section-adopter {
+  /*border : 3px solid;*/
+  border-radius: 20px;
+  width: 30%;
+  margin : 3px;
+  padding: 3px;
+  text-align: center;
+}
+
+ul{
+  list-style: disc;
+}
+
+.img-annonce{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  /*border: 1px solid red;*/
+}
+
+.img-annonce img{
+  width:100%;
+  aspect-ratio: 16/9;
+}
+
+.fa-arrow-left, .fa-arrow-right{
+  font-size: larger;
+}
+
+.fa-arrow-left:hover, .fa-arrow-right:hover{
+  transform: scale(1.25);
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(251, 252, 253);
+  border: 3px solid;
+  border-radius: 20px; 
+  color: rgb(12, 12, 12);
+  padding: 24px 32px; 
+  font-size: 30px; 
+  cursor: pointer; 
+  text-align: center;
+}
+
+.btn:hover {
+  color: RoyalBlue;
+}
+
+

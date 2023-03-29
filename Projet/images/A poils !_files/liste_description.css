@@ -1,0 +1,36 @@
+#title_race{
+    text-align: center;
+   
+    padding: 2em;
+    font-size: 3em;
+    background-image: url(../images/desc.jpg);
+    background-size: cover;
+    background-position: 55% 30%;
+    color: white;   
+}
+
+#liste_race_d{
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#liste_race_d li{
+    transition: 0.2s;
+    height: 3em;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    background-image: url(../images/race_slide.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 2em;
+}
+
+#liste_race_d li:hover{
+    transform: scale(1.05);
+}

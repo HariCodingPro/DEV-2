@@ -1,0 +1,72 @@
+#accueil_div{
+    height: 20em;
+    background: url(../images/accueil_bg.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    margin-top: -1em;
+    margin-bottom: 15em;
+}
+
+#accueil_div div{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#texte_accueil{
+    height: 70%;
+    text-align: center;
+    width: 80%;
+}
+
+#first_bouton{
+    height: 30%;   
+    width: 50%;
+}
+
+#first_bouton ul{
+    padding: 0; 
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#first_bouton li{
+    width: 50%;
+   
+    
+}
+
+
+#first_bouton input{
+   
+    white-space: normal;
+    height: 50%;
+    width: 90%;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    transition: 0.2s;
+   
+}
+
+#first_bouton input:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#first_bouton input:active{
+    background-color: rgb(241, 209, 156);
+    color: white;
+
+    border: none;
+    transition: 0s;
+}
+
+
